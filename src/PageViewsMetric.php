@@ -90,10 +90,9 @@ class PageViewsMetric extends Value
     public function ranges()
     {
         return [
-            1 => 'Today',
-            'MTD' => 'This month (to date)',
-            // 60 => '60 Days',
-            'YTD' => 'This year (to date)',
+            1 => 'Aujourd\'hui',
+            'MTD' => 'Ce mois-ci (à ce jour)',
+            'YTD' => 'Cette année (à ce jour)',
             // 'MTD' => 'Month To Date',
             // 'QTD' => 'Quarter To Date',
             // 'YTD' => 'Year To Date',

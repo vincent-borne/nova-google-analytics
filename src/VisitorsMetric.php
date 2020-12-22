@@ -93,13 +93,13 @@ class VisitorsMetric extends Value
     public function ranges()
     {
         return [
-            1 => 'Today',
+            1 => 'Aujourd\'hui',
             // 30 => '30 Days',
             // 60 => '60 Days',
             // 365 => '365 Days',
-            'MTD' => 'This month (to date)',
+            'MTD' => 'Ce mois-ci (à ce jour)',
             // 'QTD' => 'Quarter To Date',
-            'YTD' => 'This year (to date)',
+            'YTD' => 'Cette année (à ce jour)',
         ];
     }
 
