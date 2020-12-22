@@ -10,7 +10,7 @@ use Spatie\Analytics\Period;
 
 class PageViewsMetric extends Value
 {
-    public $name = 'Page Views';
+    public $name = 'Pages vues';
 
     /**
      * Calculate the value of the metric.

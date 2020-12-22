@@ -1,7 +1,7 @@
 <template>
     <card class="px-4 py-4">
         <div class="mb-4">
-            <h3 class="mr-3 text-base text-80 font-bold">GA Most-visited pages this week</h3>
+            <h3 class="mr-3 text-base text-80 font-bold">Pages les plus visitées cette semaine</h3>
         </div>
         <div v-if="!pages" class="flex items-center">
             <p class="text-80 font-bold">No Data</p>

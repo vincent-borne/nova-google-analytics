@@ -10,7 +10,7 @@ use Spatie\Analytics\Period;
 
 class VisitorsMetric extends Value
 {
-    public $name = 'Visitors';
+    public $name = 'Utilisateurs';
 
     /**
      * Calculate the value of the metric.
